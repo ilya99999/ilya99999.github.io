@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ body {
+	background-color: #f5f3f2;
+}
+h1 {
+	text-align: center;
+	width: 100%;
+}
+
+.body {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: auto;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: -webkit-box-shadow: 4px 4px 39px 28px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 39px 28px rgba(34, 60, 80, 0.2);
+	box-shadow: 4px 4px 39px 28px rgba(34, 60, 80, 0.2); /*0 0 10px 10px rgba(0,0,0,0.2)*/
+
+    
+}
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	background-color: blue;
+	margin: 20px; 
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: -webkit-box-shadow: 0px 0px 19px 8px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 0px 19px 8px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 19px 8px rgba(34, 60, 80, 0.2);
+}
+a{
+	font-size: 40px;
+	color: blue;
+    text-decoration: none;
+}
+.photo:hover{
+	transform: rotate(0deg) scale(1.3);
+}
+.header {
+	width: 100%;
+	font-size: 40px;
+	margin: 30px;
+	text-align: center;
+}
+.photo1 {
+	background-image: url(../img1.webp);
+}
+.photo2 {
+	background-image: url(../img2.webp);
+}
+.photo3 {
+	background-image: url(../img3.webp);
+}
+.photo4 {
+	background-image: url(../img4.jpg);
+}
+.photo5 {
+	background-image: url(../img5.webp);
+}
+.photo6 {
+	background-image: url(../img6.webp);
+}
+.photo7 {
+	background-image: url(../img7.webp);
+}
+.photo8 {
+	background-image: url(../img8.jpg);
+}
+.photo9 {
+	background-image: url(../img9.jpg);
+}
+.photo10 {
+	background-image: url(../img10.webp);
+}
+.photo11 {
+	background-image: url(../img11.jpg);
+}
+.photo12 {
+	background-image: url(../img12.webp);
+}
