@@ -1,0 +1,56 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 15px;
+	height: 100%;
+	font-family: Montserrat;
+}
+
+body {
+	height: 100%;
+	background-color: #5f4fcc;
+}
+
+.body {
+	width: 65%;
+	background-color: #51dece;
+	margin: auto ;
+	padding: 0 50px 70px;
+
+}
+
+.part {
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+	padding: 40px 0;
+	letter-spacing: 2px;
+	color: blue;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+.text {
+ 	font-size: 220%;
+ 	margin: 30px auto; 
+
+}
+
